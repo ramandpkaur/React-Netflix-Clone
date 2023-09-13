@@ -1,0 +1,49 @@
+$bg : rgb(20,20,20);
+
+.header {
+  height: 5vmax;
+  background-color: $bg;
+  ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vh 8vw;
+  box-sizing: border-box;
+
+  > img {
+    height: 100%; 
+  }
+
+  > div {
+    text-decoration: none;
+    width: 100%;
+    margin-left: 4vmax;
+
+    > a{
+      margin: 2vmax;
+      font-size: 2.5vmin;
+      font-weight: 250;
+      color: rgb(234, 234, 234);
+
+      &:hover {
+        color: white;
+        font-weight: 500;
+
+      }
+    }
+
+  }
+
+  > svg {
+    color: rgb(234, 234, 234);
+    font-size: 1.9rem;
+    cursor: pointer;
+
+    &:hover {
+      color: white;
+      font-size: 2rem;
+
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+$bg : rgb(20,20,20);
+
+.row {
+  background-color: $bg;
+  padding: 4vh;
+
+  >h3 {
+    font-weight: 550;
+    padding: 2vh 0;
+  }
+
+  > div {
+    display: flex;
+    overflow-x: auto;
+  }
+}
+
+.card {
+  width: 10vw;
+  height: 30vh;
+  margin: 1vh;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
