@@ -6,6 +6,7 @@ import axios from 'axios';
 import { BiPlay } from 'react-icons/bi';
 import { AiOutlinePlus } from 'react-icons/ai';
 
+
 const apiKey = '7decedace997fcdc8f0e93614463f7f7';
 const mainUrl = 'https://api.themoviedb.org/3';
 const upcomingUrl = 'upcoming';
